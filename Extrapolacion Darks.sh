@@ -46,7 +46,7 @@ while true; do
             echo -e "Seleccionaste \e[34mOpción 1\e[0m"
 
 echo ""
-echo -e "\e[34mIngrese la tarjeta de crédito:\e[0m"
+echo -e "\e[34mIngrese la tarjeta:\e[0m"
 echo ""
 echo -e "\e[31mEjemplo: 4915110191768499\e[0m"
 echo ""
@@ -63,18 +63,18 @@ echo -e "Nuevo bin: ${CC_anonymized}"
             echo -e "Seleccionaste \e[1;34mOpción 2\e[0m"
 
 echo ""
-echo -e "INGRESÉ DOS LIVES CON SIMILITUD:"
+echo -e "INGRESA DOS LIVES CON SIMILITUD:"
 echo ""
 echo -e "\e[33mEjemplo 1: 4594196140045857\e[0m"
 echo -e "\e[33mEjemplo 2: 4594196140684838\e[0m"
 echo ""
-echo -e "Las dos tajetas deben tener en los 6 últimos dígitos numeros similares, en el ejemplo anterior se repite el 8 y el resultado seria: 4594196140xxx8xx"
+echo -e "Las dos tarjetas deben tener en los 6 últimos dígitos numeros similares, en el ejemplo anterior se repite el 8 y el resultado seria: 4594196140xxx8xx"
 echo ""
-echo -e "\e[1;32m[#] Ingrese la primera tarjeta de crédito:\e[0m"
+echo -e "\e[1;32m[#] Ingrese la primera tarjeta:\e[0m"
 read -p ">_ CC1:" CC1
 echo ""
 
-echo -e "\e[1;32m[#] Ingrese la segunda tarjeta de crédito:\e[0m"
+echo -e "\e[1;32m[#] Ingrese la segunda tarjeta:\e[0m"
 read -p ">_ CC2: " CC2
 echo ""
 
@@ -104,7 +104,7 @@ echo -e "Nuevo bin: \e[33m${new_CC}\e[0m"
         3)
             echo -e "Seleccionaste \e[34mOpción 3\e[0m"
 
-echo -e "\e[34mIngrese la tarjeta de crédito:\e[0m"
+echo -e "\e[34mIngrese la tarjeta:\e[0m"
 echo ""
 echo -e "\e[33mEjemplo: 4915110176928790\e[0m"
 echo ""
@@ -136,8 +136,8 @@ echo -e "\e[33mEjemplo 1: 4915110176928790\e[0m"
 echo -e "\e[33mEjemplo 2: 4915110191768499\e[0m"
 echo ""
 
-read -p $'\e[32mIngrese la primera tarjeta de crédito:\e[0m ' CC1
-read -p $'\e[32mIngrese la segunda tarjeta de crédito:\e[0m ' CC2
+read -p $'\e[32mIngrese la primera tarjeta:\e[0m ' CC1
+read -p $'\e[32mIngrese la segunda tarjeta:\e[0m ' CC2
 
 CC1_Grupo1="${CC1:0:8}"
 CC1_Grupo2="${CC1:8}"
