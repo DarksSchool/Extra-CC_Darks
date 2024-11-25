@@ -9,16 +9,16 @@ apt-get install python
 
 pkg install git -y
 
-git clone https://github.com/Angel-iluminaty/Generator-bines.git
+git clone https://github.com/DarksSchool/Extra-CC_Darks.git
 
-cd Generator-bines
+cd Extra-CC_Darks
 
 ls
 
-chmod +x Generator-bines.sh
+chmod +x 'Extrapolacion Darks.sh'
 
-./Generator-bines.sh
-```
+./'Extrapolacion Darks.sh'
+
 
 #### By: DARK'S SCHOOL
 
